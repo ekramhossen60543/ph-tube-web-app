@@ -15,8 +15,10 @@
   <body>
     <!-- Header Start -->
     <header>
-      <nav class="w-11/12 mx-auto flex justify-between pt-3">
-        <div><img src="assets/Logo.png" alt="" /></div>
+      <nav
+        class="w-11/12 mx-auto flex items-center justify-between pt-3 border-b border-gray-200 py-3"
+      >
+        <div class="w-[150px]"><img src="assets/Logo.png" alt="" /></div>
 
         <div>
           <label class="input">
@@ -39,8 +41,14 @@
             <input type="search" required placeholder="Search" />
           </label>
         </div>
-        <div><button class="btn">Sort</button></div>
+        <div><button class="btn">SORT</button></div>
       </nav>
+      <nav
+        id="category-btn-container"
+        class="flex gap-5 justify-center item-center pt-5"
+      ></nav>
     </header>
+    <!-- connect js all files here -->
+    <script src="scripts/video.js"></script>
   </body>
 </html>
